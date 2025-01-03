@@ -5,8 +5,8 @@ metadata:
 spec:
   selector:
     app: project
+  type: NodePort
   ports:
   - protocol: TCP
     port: 85
     targetPort: 85
-  type: NodePort
